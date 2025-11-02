@@ -12,8 +12,8 @@ interface MetricCardProps {
 
 const MetricCard: React.FC<MetricCardProps> = ({ title, value, change, isPositive = true,bgColor = '#F7F9FB' }) => {
   return (
-    <Card hover className={`animate-scale-in bg-[${bgColor}]`}>
-      <div className={`space-y-2 flex h-full justify-center flex-col bg-[${bgColor}]`}>
+    <Card hover className={`animate-scale-in bg-[${bgColor}] dark:bg-[#FFFFFF0D] `}>
+      <div className={`space-y-2 flex h-full justify-center flex-col `}>
         <p className="font-inter font-semibold tracking-[0]
          text-[12px] leading-[16px]
          sm:text-[13px] sm:leading-[18px]
@@ -29,7 +29,7 @@ const MetricCard: React.FC<MetricCardProps> = ({ title, value, change, isPositiv
       text-[10px] leading-[14px]
       sm:text-[11px] sm:leading-[16px]
       md:text-[11px] md:leading-[17px]
-      screen1440:text-[12px] screen1440:leading-[18px]`}>
+      screen1440:text-[12px] screen1440:leading-[18px] text-[#1C1C1C] dark:text-white`}>
             <span>{isPositive ? '+' : ''}{change}%</span>
             {isPositive ? (
               <HiTrendingUp className="ml-1 w-4 h-4" />

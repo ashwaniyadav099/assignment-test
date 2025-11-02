@@ -26,7 +26,7 @@ const menuItems: MenuItem[] = [
 
 const dashboards: MenuItem[] = [
   { name: 'Default', icon: <HiHome className="w-5 h-5" />, path: '/' },
-  { name: 'eCommerce', icon: <HiShoppingCart className="w-5 h-5" />, path: '/' },
+  { name: 'eCommerce', icon: <HiShoppingCart className="w-5 h-5" />, path: '/ecommerce' },
   { name: 'Projects', icon: <HiFolderOpen className="w-5 h-5" />, path: '/projects' },
   { name: 'Online Courses', icon: <HiAcademicCap className="w-5 h-5" />, path: '/courses' },
 ];
@@ -122,9 +122,7 @@ const Sidebar: React.FC = () => {
       {/* Logo */}
       <div className="p-6 border-b border-light-border dark:border-dark-border">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gray-900 dark:bg-white flex items-center justify-center">
-            <span className="text-white dark:text-gray-900 font-bold text-sm">B</span>
-          </div>
+           <img src='./images/ByeWind.png' className='w-8 h-auto'/>
           <span className="text-xl font-semibold text-gray-900 dark:text-white">ByeWind</span>
         </div>
       </div>

@@ -35,7 +35,7 @@ const RevenueChart: React.FC<RevenueChartProps> = ({ data }) => {
                   sm:text-[11px] sm:leading-[16px]
                   md:text-[11px] md:leading-[17px]
                   lg:text-[12px] lg:leading-[18px]
-                  screen1440:text-[12px] screen1440:leading-[18px] text-[#1C1C1C] dark:white">Current Week</span>
+                  screen1440:text-[12px] screen1440:leading-[18px] text-[#1C1C1C] dark:text-white">Current Week</span>
             <span className="font-inter font-semibold tracking-[0]
                   text-[10px] leading-[14px]
                   sm:text-[11px] sm:leading-[16px]
@@ -50,7 +50,7 @@ const RevenueChart: React.FC<RevenueChartProps> = ({ data }) => {
           sm:text-[11px] sm:leading-[16px]
           md:text-[11px] md:leading-[17px]
           lg:text-[12px] lg:leading-[18px]
-          screen1440:text-[12px] screen1440:leading-[18px] text-[#1C1C1C] dark:white">Previous Week</span>
+          screen1440:text-[12px] screen1440:leading-[18px] text-[#1C1C1C] dark:text-white">Previous Week</span>
             <span className="font-inter font-semibold tracking-[0]
           text-[10px] leading-[14px]
           sm:text-[11px] sm:leading-[16px]
